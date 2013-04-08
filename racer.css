@@ -1,0 +1,31 @@
+body, html {
+  background-color: ;
+}
+
+div.race_track {
+  background-color: white;
+}
+
+.race_track ul {
+  float: left;
+  background-color: white;
+  width: 100%;
+}
+.race_track ul:last-child {
+  clear: left;
+}
+.race_track li {
+  background-color: gray;
+  list-style-type: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+li.active {
+  background-color: #BF3205;
+}
+
+#restart {
+  display: none;
+}
