@@ -2,24 +2,24 @@ body, html {
   background-color: ;
 }
 
-div.race_track {
-  background-color: white;
+.race-track {
+  background-color: #f8f8f8;
+  width:  500px;
+  height: 200px;
 }
 
-.race_track ul {
-  float: left;
-  background-color: white;
+.race-track ul {
+
   width: 100%;
 }
-.race_track ul:last-child {
-  clear: left;
-}
-.race_track li {
+
+.race-track li {
   background-color: gray;
   list-style-type: none;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
+  display:     inline-block;
+  width:       10px;
+  height:      10px;
+  margin-left: 10px;
 }
 
 li.active {
